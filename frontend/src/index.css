@@ -1,0 +1,27 @@
+:root{
+  --header-bg-color: #20161F;
+  --signup-left-bg-color: #1E151E;
+  --signup-right-bg-color: #1C1219;
+  --text-color: #B39E6D;
+  --sub-text-color: #96866F ;
+  --sub-sub-text-color: #55473D;
+  --text-size: 28px;
+  --sub-text-size: 24px;
+  --sub-sub-text-size: 18px;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.text{
+  font-size: var(--text-size);
+  color: var(--text-color);
+}
+.sub-text{
+  font-size: var(--sub-text-size);
+  color: var(--sub-text-color);
+}
+.sub-sub-text{
+  font-size: var(--sub-sub-text-size);
+  color: var(--sub-sub-text-color);
+}

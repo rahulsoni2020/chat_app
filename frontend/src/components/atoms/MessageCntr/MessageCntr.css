@@ -1,0 +1,28 @@
+.message-cntr{
+    width: 30%;
+    background-color: var(--signup-right-bg-color);
+    box-shadow: var(--sub-text-color) 0px 2px 8px 0px;
+    padding: 10px;
+}
+.message-cntr span{
+    color: var(--text-color);
+    font-size: var(--sub-sub-text-size);
+}
+.message-cntr p{
+    color: var(--sub-sub-text-color);
+    font-size: var(--sub-sub-text-size);
+    margin: 0px;
+    padding: 0px;
+}
+.message-cntr img{
+    width: 80%;
+    height: 200px;
+    object-fit: contain;
+    margin-left: 10%;
+}
+.sender-msg{
+    margin-left: auto;
+}
+.receiver-msg{
+    margin-right: auto;
+}

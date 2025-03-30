@@ -1,0 +1,30 @@
+.container{
+    background-color: var(--signup-right-bg-color);
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dashboard-container{
+    height: 90%;
+    width: 80%;
+    background-color: var(--signup-left-bg-color);
+    box-shadow: 3px 3px .625rem var(--text-color);
+    display: grid;
+    grid-template-columns: 22% 78%;
+}
+
+.right-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-container{
+    display: flex;
+    color: var(--text-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap:20px;
+}

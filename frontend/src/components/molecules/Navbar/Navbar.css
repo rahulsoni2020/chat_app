@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem 2rem;
+    background-color: var(--header-bg-color);
+    align-items: center;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: var(--text-size);
+    color: var(--text-color);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap:20px;
+    font-size: var(---sub-text-size);
+    color: var(--sub-text-color);
+}
+.nav-tab{
+    cursor: pointer;
+}
+.header span{
+    margin-left: .3125rem;
+}

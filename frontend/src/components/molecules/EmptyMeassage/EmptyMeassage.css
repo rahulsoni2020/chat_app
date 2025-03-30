@@ -1,0 +1,14 @@
+.right-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.welcome-container{
+    display: flex;
+    color: var(--text-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap:20px;
+}
