@@ -1,0 +1,19 @@
+# Ignore node_modules for both frontend and backend
+frontend/node_modules/
+backend/node_modules/
+
+# Or, if your project structure is not fixed, ignore all node_modules folders recursively
+node_modules/
+
+# Ignore environment files (optional, but recommended)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Ignore build and dependency-related files
+dist/
+build/
+.cache/
+
