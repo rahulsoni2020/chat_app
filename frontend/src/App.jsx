@@ -17,6 +17,7 @@ function App() {
 
   useEffect(()=>{
     //it is the hook
+    //to demonstrate cherry pick
     checkAuth();
   }, [checkAuth])
 
