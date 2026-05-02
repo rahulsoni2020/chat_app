@@ -20,6 +20,7 @@ function App() {
   }, [checkAuth])
 
   if(!authUser && isCheckingAuth){
+    //code for loader
     return <Loader/>;
   }
 
