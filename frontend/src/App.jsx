@@ -16,6 +16,7 @@ function App() {
   const {authUser, checkAuth, isCheckingAuth} = useAuthStore();
 
   useEffect(()=>{
+    //it is the hook
     checkAuth();
   }, [checkAuth])
 
